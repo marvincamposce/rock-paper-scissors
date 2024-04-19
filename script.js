@@ -6,10 +6,10 @@ function getComputerChoice() {
     choice = "Rock";
   }
   else if (random === 2) {
-    choice = "Paper"
+    choice = "Paper";
   }
   else if (random === 3) {
-    choice === "Scissors"
+    choice = "Scissors";
   }
   return choice;
 }
