@@ -1,6 +1,7 @@
+let choice = "";
+
 function getComputerChoice() {
   let random = Math.floor(Math.random() * (3 - 1 + 1) + 1)
-  let choice = "";
   if (random === 1) {
     choice = "Rock";
   }
@@ -12,4 +13,5 @@ function getComputerChoice() {
   }
   return choice;
 }
+
 
